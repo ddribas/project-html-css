@@ -1,0 +1,152 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F5F5;
+    padding: 20px;
+}
+
+/* index.html */
+
+.home-title {
+    display: flex;
+    height: 100px;
+    padding: 160px 64px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+    text-align: center;
+    letter-spacing: .2em;
+    font-size: 1.5em;
+}
+
+.home-title h1 {
+    padding-top: 0.5em;
+    color: #1E1E1E;
+}
+
+.home-title h2 {
+    padding-top: 1em;
+    color: #757575;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sidebar {
+    display: flex;
+    width: fit-content;
+    padding: 32px;
+    align-items: center;
+    align-content: space-around;
+    gap: 0 24px;
+    flex-wrap: wrap;
+    border-radius: 90px;
+    border-bottom: 1px solid #D9D9D9;
+    background: white;
+}
+
+.sidebar-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.main-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+    flex-wrap: wrap;
+}
+
+.main-buttons span {
+    color: #1E1E1E;
+    background: #F5F5F5;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    user-select: none;
+}
+
+.main-buttons span:hover {
+    background: #D9D9D9;
+}
+
+.main-buttons span:active {
+    background: #c0c0c0;
+}
+
+.auth-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 8px;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+}
+
+.auth-buttons span {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    user-select: none;
+}
+
+.sign-button {
+    color: #1E1E1E;
+    background: #D9D9D9;
+}
+
+.sign-button:hover {
+    background: #c0c0c0;
+}
+
+.sign-button:active {
+    background: #a8a8a8;
+}
+
+.register-button {
+    color: #F5F5F5;
+    background: #1E1E1E;
+}
+
+.register-button:hover {
+    background: #131313;
+}
+
+.register-button:active {
+    background: #000000;
+}
+
+.dog-selection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-evenly;
+    padding: 64px;
+    margin: 64px;
+    gap: 48px;
+    background: white;
+}
+
+.dog-portrait {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
