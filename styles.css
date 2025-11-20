@@ -2,6 +2,7 @@ body {
     font-family: 'Inter', sans-serif;
     background-color: #F5F5F5;
     padding: 20px;
+    
 }
 
 /* index.html */
@@ -20,12 +21,12 @@ body {
 }
 
 .home-title h1 {
-    padding-top: 0.5em;
+    font-size: 2em;
     color: #1E1E1E;
 }
 
 .home-title h2 {
-    padding-top: 1em;
+    padding: .5em;;
     color: #757575;
 }
 
