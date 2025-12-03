@@ -4,5 +4,7 @@ O tema do projeto é uma Pet Shop chamada, Pet Shop.
 A 4 páginas serão:
     - Home page
     - Sign in/Register page
-    - Account page
-    - Animal page (Página onde se pode ver o animal com mais detalhe)
+    - Animal/Product page (Página onde se pode ver o animal com mais detalhe)
+    - Cart Page
+
+Em retrospetiva chamar a página do animal de "Product" não foi uma boa ideia 
