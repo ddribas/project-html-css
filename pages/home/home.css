@@ -38,7 +38,7 @@
     align-items: center;
 }
 
-.animal-selection div {
+.animal-selection a {
     background: #c0cfb2;
     display: flex;
     min-width: 240px;
@@ -51,16 +51,21 @@
     gap: 24px;
     border-radius: 8px;
     user-select: none;
+    text-decoration: none;
 }
 
-.animal-selection div:hover {
+.animal-selection a:hover {
     background: #8ba888;
 }
 
-.animal-selection div h3 {
+.animal-selection a:visited {
+    color: inherit;
+}
+
+.animal-selection a h3 {
     color: #1E1E1E;
 }
 
-.animal-selection div p {
+.animal-selection a p {
     color: #757575;
 }

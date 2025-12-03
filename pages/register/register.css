@@ -67,3 +67,11 @@ a {
     background: #2C2C2C;
     color: white;
 }
+
+.submit-button:hover {
+    background: #131313;
+}
+
+.submit-button:active {
+    background: #000000;
+}

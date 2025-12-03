@@ -16,18 +16,18 @@
             <div class="main-buttons">
                 <span>Cães</span>
                 <span>Gatos</span>
-                <span>Carrinho</span>
+                <span><a href="../cart/cart.html">Carrinho</a></span>
                 <span>Apoio ao Cliente</span>
             </div>
             <div class="auth-buttons">
-                <a class="sign-button" href="../login/login.html">Sign in</a>
-                <a class="register-button" href="register.html">Register</a>
+                <a class="sign-button" href="../login/login.html">Iniciar Sessão</a>
+                <a class="register-button" href="register.html">Registrar</a>
             </div>
         </div>
     </header>
     <section class="sign-card">
-        <form class="sign-form" action="../account/account.html" method="post" novalidate>
-            <h2>Sign In to Pet Shop</h2>
+        <form class="sign-form" action="../home/home.html" method="get" novalidate>
+            <h2>Registrar na Pet Shop</h2>
 
             <div class="form-input">
                 <label for="username">Username</label>
@@ -35,7 +35,7 @@
             </div>
 
             <div class="form-input">
-                <label for="email">Email Address</label>
+                <label for="email">Endereço de Email</label>
                 <input id="email" name="email" type="text" required>
             </div>
 
@@ -47,11 +47,12 @@
             </div>
 
             <div class="form-input">
-                <label for="email">Country</label>
-                <input id="email" name="email" type="text" required>
+                <div class="form-password">
+                    <label for="password-repeat">Repita a Password</label>
+                </div>
+                <input id="password-repeat" name="password-repeat" type="password" required minlength="6">
             </div>
-
-            <button type="submit" class="submit-button">Register</button>
+            <button type="submit" class="submit-button">Registrar</button>
          </form>
     </section>
 </body>
